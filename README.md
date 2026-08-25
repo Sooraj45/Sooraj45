@@ -35,37 +35,6 @@ DevOps Engineer → Cloud & Infrastructure → Linux → Docker
 - ☁️ Cloud Infrastructure
 - 🔊 Text-to-Speech IoT
 
- name: Generate Snake Animation
- 
-on:
-  schedule:
-    - cron: "0 */6 * * *"    # runs every 6 hours
-  push:
-    branches:
-      - main                 # runs on every push to main
-  workflow_dispatch:         # allows manual trigger from the Actions tab
- 
-jobs:
-  generate:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    steps:
-      - name: Generate Snake SVG
-        uses: Platane/snk@v3
-        with:
-          github_user_name: Sooraj45
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
- 
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
 
 ## 📫 Connect With Me
 
