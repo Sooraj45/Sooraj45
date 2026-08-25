@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Sooraj45
+# 👋 Hi, I'm Sooraj Poojary
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=36BCF7&width=600&lines=DevOps+Engineer;Cloud+%26+Infrastructure+Enthusiast;Linux+%7C+Docker+%7C+AWS;Always+Learning+New+Technology" />
 
