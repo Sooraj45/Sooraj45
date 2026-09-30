@@ -30,7 +30,9 @@
  @media(prefers-reduced-motion:reduce){*{animation:none!important}.glitch{opacity:0}.scan{opacity:0}}
 </style><rect x="1" y="1" width="1198" height="528" rx="20" fill="url(#bg)" stroke="#195362"/><rect x="2" y="2" width="1196" height="526" rx="20" fill="url(#grid)" opacity=".4"/><rect x="16" y="16" width="1168" height="498" rx="12" fill="none" stroke="url(#neon)" stroke-opacity=".5"/>
 <path d="M16 62H1184" stroke="#195361"/>
-<circle cx="39" cy="39" r="6" fill="#ff5678"/><circle cx="62" cy="39" r="6" fill="#ffc45a"/><circle cx="85" cy="39" r="6" fill="#47ff9d"/>
+<style>.header-led{animation:header-led-blink 2.4s ease-in-out infinite}
+@keyframes header-led-blink{0%,22%,100%{opacity:1}32%,90%{opacity:.18}}</style>
+<g class="header-led" style="animation-delay:0s"><circle cx="39" cy="39" r="10" fill="#ff5678" opacity=".2" filter="url(#glow)"/><circle cx="39" cy="39" r="6" fill="#ff5678" filter="url(#glow)"/></g><g class="header-led" style="animation-delay:-0.8s"><circle cx="62" cy="39" r="10" fill="#ffc45a" opacity=".2" filter="url(#glow)"/><circle cx="62" cy="39" r="6" fill="#ffc45a" filter="url(#glow)"/></g><g class="header-led" style="animation-delay:-1.6s"><circle cx="85" cy="39" r="10" fill="#47ff9d" opacity=".2" filter="url(#glow)"/><circle cx="85" cy="39" r="6" fill="#47ff9d" filter="url(#glow)"/></g>
 <text x="110" y="44" font-size="15" fill="#d3e8ed" >sooraj@github:~ / README.md</text>
 <circle cx="996" cy="39" r="4" fill="#47ff9d" class="pulse"/><text x="1010" y="44" font-size="12" fill="#47ff9d" >ALWAYS LEARNING</text>
 <ellipse cx="880" cy="269" rx="305" ry="247" fill="url(#halo)"/>
