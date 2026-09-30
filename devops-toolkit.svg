@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="title"><title id="title">Toolkit: Linux, Docker, AWS, Python and GitHub.</title><defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#040b13"/><stop offset=".55" stop-color="#07151b"/><stop offset="1" stop-color="#050812"/></linearGradient>
+  <linearGradient id="neon"><stop stop-color="#47ff9d"/><stop offset=".52" stop-color="#00e5ff"/><stop offset="1" stop-color="#9974ff"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#00efbc" stop-opacity=".18"/><stop offset="1" stop-color="#00efbc" stop-opacity="0"/></radialGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#0e333a" stroke-width=".6"/></pattern>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 0H4" stroke="#091b23" stroke-width="1" opacity=".4"/></pattern>
+</defs>
+<style>
+ text{font-family:Consolas,'Liberation Mono',monospace}
+ .orbit{transform-box:fill-box;transform-origin:center;animation:spin 22s linear infinite}
+ .reverse{animation-direction:reverse;animation-duration:32s}
+ .pulse{animation:pulse 3s ease-in-out infinite}
+ .blink{animation:blink 1.2s steps(1) infinite}
+ .flow{stroke-dasharray:8 20;animation:flow 2.5s linear infinite}
+ .scan{animation:scan 8s linear infinite}
+ .rain{animation:rain 9s linear infinite}
+ .bar{transform-box:fill-box;transform-origin:bottom;animation:bar 3s ease-in-out infinite alternate}
+ .glitch{animation:glitch 9s steps(1) infinite}
+ .reveal{animation:reveal 8s steps(1) infinite}
+ @keyframes spin{to{transform:rotate(360deg)}}
+ @keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+ @keyframes blink{50%{opacity:0}}
+ @keyframes flow{to{stroke-dashoffset:-112}}
+ @keyframes scan{0%{transform:translateY(-160px);opacity:0}15%,85%{opacity:.45}100%{transform:translateY(420px);opacity:0}}
+ @keyframes rain{from{transform:translateY(-150px)}to{transform:translateY(530px)}}
+ @keyframes bar{from{transform:scaleY(.4)}to{transform:scaleY(1)}}
+ @keyframes glitch{0%,92%,96%,100%{opacity:0;transform:translateX(0)}93%{opacity:.8;transform:translateX(3px)}95%{opacity:.6;transform:translateX(-3px)}}
+ @keyframes reveal{0%,24%{opacity:1}25%,100%{opacity:.2}}
+ @media(prefers-reduced-motion:reduce){*{animation:none!important}.glitch{opacity:0}.scan{opacity:0}}
+</style><rect x="1" y="1" width="1198" height="228" rx="20" fill="url(#bg)" stroke="#195362"/><rect x="2" y="2" width="1196" height="226" rx="20" fill="url(#grid)" opacity=".4"/><text x="24" y="37" font-size="13" fill="#00e5ff" letter-spacing="3">03 / TOOLKIT</text><text x="1176" y="37" font-size="11" fill="#6d919d" text-anchor="end" letter-spacing="1">TOOLS I WORK WITH</text><rect x="18" y="57" width="220" height="155" rx="11" fill="#061018" stroke="#19414d"/><path d="M38 58H218" stroke="#47ff9d" stroke-width="2"/><g transform="translate(100 78)" fill="none" stroke="#47ff9d" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="50" height="36" rx="6"/><path d="m12 14 9 8-9 8m17 0h14"/></g><text x="128" y="160" font-size="20" fill="#47ff9d" text-anchor="middle" font-weight="700">LINUX</text><text x="128" y="187" font-size="12" fill="#97b8c4" text-anchor="middle">Systems &amp; shell</text><rect x="254" y="57" width="220" height="155" rx="11" fill="#061018" stroke="#19414d"/><path d="M274 58H454" stroke="#00e5ff" stroke-width="2"/><g transform="translate(336 78)" fill="none" stroke="#00e5ff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M2 27h50c-3 15-15 19-30 15C12 40 5 35 2 27Zm8-3v-8h9v8m4 0v-8h9v8m4 0v-8h9v8M23 12V4h9v8M46 20c5-1 8-5 8-9"/></g><text x="364" y="160" font-size="20" fill="#00e5ff" text-anchor="middle" font-weight="700">DOCKER</text><text x="364" y="187" font-size="12" fill="#97b8c4" text-anchor="middle">Containers &amp; images</text><rect x="490" y="57" width="220" height="155" rx="11" fill="#061018" stroke="#19414d"/><path d="M510 58H690" stroke="#ffc45a" stroke-width="2"/><g transform="translate(572 78)" fill="none" stroke="#ffc45a" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M13 37a11 11 0 0 1-2-22 16 16 0 0 1 30-4 13 13 0 1 1 5 26Z"/></g><text x="600" y="160" font-size="20" fill="#ffc45a" text-anchor="middle" font-weight="700">AWS</text><text x="600" y="187" font-size="12" fill="#97b8c4" text-anchor="middle">Cloud infrastructure</text><rect x="726" y="57" width="220" height="155" rx="11" fill="#061018" stroke="#19414d"/><path d="M746 58H926" stroke="#b396ff" stroke-width="2"/><g transform="translate(808 78)" fill="none" stroke="#b396ff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="m18 8-14 16 14 16m21-32 14 16-14 16M33 4 23 44"/></g><text x="836" y="160" font-size="20" fill="#b396ff" text-anchor="middle" font-weight="700">PYTHON</text><text x="836" y="187" font-size="12" fill="#97b8c4" text-anchor="middle">Automation &amp; scripts</text><rect x="962" y="57" width="220" height="155" rx="11" fill="#061018" stroke="#19414d"/><path d="M982 58H1162" stroke="#e4f4f2" stroke-width="2"/><g transform="translate(1044 78)" fill="none" stroke="#e4f4f2" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><circle cx="13" cy="9" r="6"/><circle cx="13" cy="40" r="6"/><circle cx="45" cy="9" r="6"/><path d="M13 15v19m32-19c0 15-32 3-32 19"/></g><text x="1072" y="160" font-size="20" fill="#e4f4f2" text-anchor="middle" font-weight="700">GITHUB</text><text x="1072" y="187" font-size="12" fill="#97b8c4" text-anchor="middle">Code &amp; collaboration</text></svg>
