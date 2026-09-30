@@ -35,7 +35,7 @@ I’m **Sooraj Poojary**, a **DevOps & Cloud Enthusiast** focused on building an
 ## GitHub activity
 
 <p align="center">
-  <a href="https://github.com/Sooraj45?tab=repositories"><img width="49%" src="https://github-readme-stats.vercel.app/api?username=Sooraj45&show_icons=true&hide_border=true&bg_color=061018&title_color=47ffae&text_color=a9c8cb&icon_color=00e5ff&hide_rank=true" alt="Sooraj45’s GitHub statistics" /></a>
+  <a href="https://github.com/Sooraj45?tab=repositories"><img width="49%" src="https://github-readme-stats.vercel.app/api?username=Sooraj45&show_icons=true&hide_border=true&bg_color=061018&title_color=47ffae&text_color=a9c8cb&icon_color=00e5ff&hide_rank=true&card_width=495" alt="Sooraj45’s GitHub statistics" /></a>
   <a href="https://github.com/Sooraj45"><img width="49%" src="https://streak-stats.demolab.com?user=Sooraj45&hide_border=true&background=061018&ring=47ffae&fire=00e5ff&currStreakLabel=47ffae&sideLabels=a9c8cb&currStreakNum=e8fff6&sideNums=e8fff6&dates=6d919d" alt="Sooraj45’s contribution streak" /></a>
 </p>
 
