@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./devops-hero.svg" width="100%" alt="Hi, I’m Sooraj Poojary — DevOps Engineer. Automating today. Building a better tomorrow." />
+  <img src="./devops-hero.svg?v=header-lights-1" width="100%" alt="Hi, I’m Sooraj Poojary — DevOps Engineer. Automating today. Building a better tomorrow." />
 </p>
 
 <p align="center">
